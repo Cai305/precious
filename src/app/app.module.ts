@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { Imgpanel2Component } from './main/components/imgpanel2/imgpanel2.component';
 import { Imgpanel3Component } from './main/components/imgpanel3/imgpanel3.component';
 import { CartComponent } from './main/cart/cart.component';
+import { Page404Component } from './main/page404/page404.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { CartComponent } from './main/cart/cart.component';
     Imgpanel2Component,
     Imgpanel3Component,
     CartComponent,
+    Page404Component,
   ],
   imports: [
     BrowserModule,
