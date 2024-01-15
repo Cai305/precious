@@ -4,37 +4,51 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './main/navbar/navbar.component';
+import { HeroComponent } from './main/hero/hero.component';
+import { Panel2imgComponent } from './main/components/panel2img/panel2img.component';
+import { PanelComponent } from './main/components/panel/panel.component';
+import { ExclusiveCollectionComponent } from './main/components/exclusive-collection/exclusive-collection.component';
+import { CollectionsComponent } from './main/components/collections/collections.component';
+import { BestDealsComponent } from './main/components/best-deals/best-deals.component';
+import { NewArrivalsComponent } from './main/components/new-arrivals/new-arrivals.component';
+import { CategoryComponent } from './main/components/category/category.component';
+import { UrbanCollectionsComponent } from './main/components/urban-collections/urban-collections.component';
+import { BestSellersComponent } from './main/components/best-sellers/best-sellers.component';
+import { SummerCollectionComponent } from './main/components/summer-collection/summer-collection.component';
+import { ExploreCollectionComponent } from './main/components/explore-collection/explore-collection.component';
 import { FooterComponent } from './main/footer/footer.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { ImgpanelComponent } from './main/components/imgpanel/imgpanel.component';
-import { LoginComponent } from './main/auth/login/login.component';
-import { RegisterComponent } from './main/auth/register/register.component';
-import { FormsModule } from '@angular/forms';
-import { Imgpanel2Component } from './main/components/imgpanel2/imgpanel2.component';
-import { Imgpanel3Component } from './main/components/imgpanel3/imgpanel3.component';
+import { NewsLetterComponent } from './main/components/news-letter/news-letter.component';
+import { Hero2Component } from './main/hero2/hero2.component';
 import { CartComponent } from './main/cart/cart.component';
-import { Page404Component } from './main/page404/page404.component';
-
+import { SearchComponent } from './main/components/search/search.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
+    HeroComponent,
+    Panel2imgComponent,
+    PanelComponent,
+    ExclusiveCollectionComponent,
+    CollectionsComponent,
+    BestDealsComponent,
+    NewArrivalsComponent,
+    CategoryComponent,
+    UrbanCollectionsComponent,
+    BestSellersComponent,
+    SummerCollectionComponent,
+    ExploreCollectionComponent,
     FooterComponent,
-    ImgpanelComponent,
-    LoginComponent,
-    RegisterComponent,
-    Imgpanel2Component,
-    Imgpanel3Component,
+    NewsLetterComponent,
+    Hero2Component,
     CartComponent,
-    Page404Component,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule,
     FormsModule
-
   ],
   providers: [],
   bootstrap: [AppComponent]
